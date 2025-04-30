@@ -43,7 +43,7 @@ private:
 #else
 class ScopedTimer {
 public:
-    ScopedTimer(const std::string &name) {}
+    ScopedTimer(const std::string &/*name*/) {}
     ~ScopedTimer() {}
 };
 #endif // TIMING_MODE
